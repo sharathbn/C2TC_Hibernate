@@ -9,7 +9,7 @@ public class MainApp {
 
 		// CRUD operation
 		// Step 1: Create
-		Users user1 = new Users("sharath", "sharath12", "sharath", "bn");
+		Users user1 = new Users("sharathbn", "sharath12", "sharath", "bn");
 		objsession.beginTransaction();
 		objsession.save(user1);
 		objsession.getTransaction().commit();
