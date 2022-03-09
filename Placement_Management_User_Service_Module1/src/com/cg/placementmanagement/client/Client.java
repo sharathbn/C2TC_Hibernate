@@ -9,14 +9,12 @@ public class Client {
 	public static void main(String[] args) {
 	 UserService service = new UserServiceImpl();
 	 User user=new User();
-	user.setId(23);
-	user.setName("sharathghghhg");
-	user.setType("shj");
-	user.setPassword("sjsjkk");
+	user.setId(2);
+	user.setName("sharathbn");
+	user.setType("jdkfskj");
+	user.setPassword("jsdjsdsdj");
 	service.updateUser(user);
-	
-	
-
+	System.out.println("completed successfully");
 	
 	}
 
